@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & 24/7 Callout | CR Plumbers & Electricians Pretoria North</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="header-container">
+      <a href="../index.html" class="logo">
+        <img src="logo.svg" alt="CR Plumbers & Electricians" height="42">
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav id="navMenu">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <a href="tel:0694364811" class="btn btn-call"><i class="fa-solid fa-phone"></i> 069 436 4811</a>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="hero hero-sub">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="badge"><i class="fa-solid fa-headset"></i> 24/7 Dispatch Center</span>
+      <h1>Contact & Emergency Services</h1>
+      <p>Need urgent help or a routine quotation? Reach our Pretoria North dispatch team directly.</p>
+    </div>
+  </section>
+
+  <main class="container">
+    
+    <!-- Urgent Emergency Alert Banner -->
+    <div class="emergency-alert">
+      <div class="alert-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+      <div class="alert-text">
+        <strong>Active Water Leak or Power Failure?</strong>
+        <p>For immediate emergency dispatch in Pretoria North, call us directly instead of using the form.</p>
+      </div>
+      <a href="tel:0694364811" class="btn btn-call"><i class="fa-solid fa-phone-volume"></i> 069 436 4811</a>
+    </div>
+
+    <div class="contact-grid">
+      
+      <!-- Direct Channels -->
+      <div class="contact-info">
+        <h2 class="section-title"><i class="fa-solid fa-address-card icon-blue"></i> Direct Channels</h2>
+        
+        <div class="info-card">
+          <i class="fa-solid fa-phone icon-blue"></i>
+          <div>
+            <h4>Phone Number</h4>
+            <p><a href="tel:0694364811">069 436 4811</a> (24 Hours Emergency)</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-envelope icon-blue"></i>
+          <div>
+            <h4>Email Address</h4>
+            <p><a href="mailto:info@crplumbers.co.za">info@crplumbers.co.za</a></p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-location-dot icon-blue"></i>
+          <div>
+            <h4>Primary Service Area</h4>
+            <p>Pretoria North, Gauteng, 0182</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-clock icon-blue"></i>
+          <div>
+            <h4>Operating Hours</h4>
+            <p>Emergency Services: 24/7 / 365 Days<br>General Inquiries: Mon - Sat: 07:30 - 17:00</p>
+          </div>
+        </div>
+
+        <!-- Google Map Wrapper -->
+        <div class="map-wrapper">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57530.07172827116!2d28.140889243761763!3d-25.674997191143825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebfdc651125bd41%3A0x5007395b0f59260!2sPretoria%20North%2C%20Pretoria!5e0!3m2!1sen!2sza!4v1710000000000!5m2!1sen!2sza" 
+            width="100%" 
+            height="220" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Quote Request Form -->
+      <div class="contact-form-wrapper">
+        <h2 class="section-title"><i class="fa-solid fa-paper-plane icon-blue"></i> Send a Message</h2>
+        
+        <form action="contact.php" method="POST" id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <div class="input-icon-group">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" id="name" name="name" required placeholder="John Doe">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <div class="input-icon-group">
+              <i class="fa-solid fa-mobile-screen"></i>
+              <input type="tel" id="phone" name="phone" required placeholder="069 436 4811">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <div class="input-icon-group">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" id="email" name="email" placeholder="name@example.co.za">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service Required</label>
+            <div class="input-icon-group">
+              <i class="fa-solid fa-list-check"></i>
+              <select id="service" name="service">
+                <option value="Plumbing Emergency">Plumbing Emergency</option>
+                <option value="Electrical Repair">Electrical Repair / Tripping DB</option>
+                <option value="Geyser Service">Geyser Replacement / Repair</option>
+                <option value="Drain Unblocking">High-Pressure Drain Unblocking</option>
+                <option value="Certificate of Compliance">Electrical COC Certificate</option>
+                <option value="General Inquiry">General Quotation</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Issue Description / Address Details</label>
+            <textarea id="message" name="message" rows="4" placeholder="Describe the leak, fault, or job location..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-accent btn-block">
+            <i class="fa-solid fa-paper-plane"></i> Submit Inquiry
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 CR Plumbers & Electricians - Pretoria North | Available 24/7</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

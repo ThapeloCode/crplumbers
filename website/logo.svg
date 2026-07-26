@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 60" width="400" height="60" aria-label="CR Plumbers and Electricians Emblem Logo">
+  <defs>
+    <linearGradient id="dropGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00A8FF" />
+      <stop offset="100%" stop-color="#007ACC" />
+    </linearGradient>
+    <linearGradient id="boltGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Shield Base -->
+  <g transform="translate(6, 5)">
+    <path d="M 25 2 C 38 2, 48 8, 48 8 L 48 26 C 48 38, 25 48, 25 48 C 25 48, 2 38, 2 26 L 2 8 C 2 8, 12 2, 25 2 Z" fill="#0F2537" />
+    <path d="M 21 12 C 21 12 13 22 13 28 C 13 32.4 16.6 36 21 36 C 25.4 36 29 32.4 29 28 C 29 22 21 12 21 12 Z" fill="url(#dropGrad1)" />
+    <polygon points="25,12 17,26 23,26 19,38 29,22 23,22" fill="url(#boltGrad1)" />
+  </g>
+
+  <!-- Typography -->
+  <text y="32" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="24" fill="#FFFFFF" letter-spacing="0.5">
+    <tspan x="54">CR</tspan>
+    <tspan x="95" fill="#007ACC">PLUMBERS</tspan>
+  </text>
+  <text x="50" y="47" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="11" fill="#94A3B8" letter-spacing="1.5">
+    &amp; ELECTRICIANS
+  </text>
+</svg>
